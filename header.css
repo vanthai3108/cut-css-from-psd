@@ -1,0 +1,50 @@
+/** header**/
+header {
+	height: 821px;
+	background-image: url(images/shap2.png), url(images/shap1.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position:right top, left bottom;
+	background-size: 887px, 138px;
+	padding-top: 68px;
+}
+header #top {
+	display: flex;
+	justify-content: space-between;
+}
+header #top ul li {
+	display: inline-block;
+}
+header #top ul li a {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	color: white;
+	padding: 0px 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+header #top ul li a.heighlight {
+	background-color: white;
+	color: #14215e;
+	border-radius: 18px;
+}
+#jumbostron h1 {
+	color: #1c2056;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
+	margin-top: 118px;
+	max-width: 405px;
+}
+#jumbostron h2 {
+	color: rgba(35,45,52,0.65);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	margin-top: 30px;
+	max-width: 435px;
+}
+header .btn {
+	margin-top: 80px;
+}

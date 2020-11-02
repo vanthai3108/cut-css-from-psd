@@ -1,0 +1,108 @@
+/**contact and footer**/
+#contact-and-footer-wrap {
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+	min-height: 1100px;
+
+}
+#contact {
+	background-color: #3072c0;
+	background-image: url(images/contactpg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	min-height: 570px;
+	padding-top: 65px;
+	text-align: center;
+}
+
+#contact p {
+	max-width: 1000px;
+	color: white;
+	font-size: 36px;
+	line-height: 45px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 52px;
+}
+#contact input {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	width: 600px;
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+	color: rgba(84, 110, 122, 0.6);
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px 37px;
+	margin: 20px auto;
+}
+#contact .btn {
+	background-color:#00aeff;
+	border: none;
+	color: #fbfcfc;
+	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 52px;
+}
+#contact .btn:hover {
+	background-color: #00a1eb;
+	box-shadow: 0px 22px 24px rgba(17, 83, 165, 0.21)
+}
+footer #links {
+	display: flex;
+	justify-content: space-between;
+}
+footer #links div {
+	flex-basis: 240px;
+}
+footer #links h4 {
+	font-family: 'Open Sans', sans-serif;	
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	margin-top: 96px;
+}
+footer #links ul li a {
+	display: inline-block;
+	line-height: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+footer #links ul li a:hover {
+	color: #c0c0c0;
+}
+footer #links div p {
+	color: white;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+footer #links div p span {
+	display: block;
+}
+footer #socials li {
+	display: inline-block;	
+	margin-right: 9px;
+}
+footer #socials li a {
+	display: inline-block;
+	height: 47px;
+	width: 47px;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 47px;
+}
+footer #socials li a img {
+	display: inline;
+	vertical-align: middle;
+}
